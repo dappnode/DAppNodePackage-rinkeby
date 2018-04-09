@@ -1,0 +1,19 @@
+{
+    "name": "rinkeby.dnp.dappnode.eth",
+    "version": "0.0.2",
+    "description": "Rinkeby chain for DAppNode (ethereum/client-go:v1.8.3)",
+    "image": {
+        "path": "",
+        "hash": "",
+        "size": "",
+        "ports": [
+            "30303"
+        ],
+        "volumes": [
+            "rinkeby:/home/.rinkeby"
+        ]
+    },
+    "author": "Eduardo Antuña Díez (eduadiez)",
+    "license": "MIT",
+    "dependencies": {}
+}
