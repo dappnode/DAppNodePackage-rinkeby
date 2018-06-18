@@ -1,7 +1,9 @@
 {
     "name": "rinkeby.dnp.dappnode.eth",
-    "version": "0.0.2",
-    "description": "Rinkeby chain for DAppNode (ethereum/client-go:v1.8.3)",
+    "version": "0.1.0",
+    "description": "Rinkeby chain for DAppNode (ethereum/client-go:v1.8.11)",
+    "avatar": "rinkeby.png",
+    "type": "library",
     "image": {
         "path": "",
         "hash": "",
@@ -14,6 +16,14 @@
         ]
     },
     "author": "Eduardo Antuña Díez (eduadiez)",
-    "license": "MIT",
+    "keywords": [
+        "geth",
+        "rinkeby",
+        "ethereum"
+    ],
+    "homepage": {
+        "homepage": "http://rinkeby.io/"
+    },
+    "license": "GPL-3.0",
     "dependencies": {}
 }

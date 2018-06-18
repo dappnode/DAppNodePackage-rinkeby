@@ -1,0 +1,5 @@
+version: '3.4'
+services:
+    rinkeby.dnp.dappnode.eth:
+        build: .
+        image: 'rinkeby.dnp.dappnode.eth:0.1.0'
