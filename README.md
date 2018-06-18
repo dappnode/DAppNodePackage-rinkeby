@@ -1,13 +1,15 @@
 # DNP_rinkeby
 Dappnode package responsible for providing the rinkeby chain
 
-Version 0.0.3
+Aragon Repo at [0x2dbc4622fde0dc5d1d1c6fc908678cddba81c189](https://etherscan.io/address/0x2dbc4622fde0dc5d1d1c6fc908678cddba81c189)
+
+Version 0.1.0
 ```
 [
   {
     "path": "dappnode_package.json",
-    "hash": "QmXPPiNLeb327zxtjLRNkFuN27H2VhSCfxeST8vvsVpGyD",
-    "size": 546
+    "hash": "QmWs8dH5H8Jkukncbna5qj8ASWsCAa7W2TRsSXeystV4mm",
+    "size": 885
   }
 ]
 ```

@@ -2,28 +2,35 @@
     "name": "rinkeby.dnp.dappnode.eth",
     "version": "0.1.0",
     "description": "Rinkeby chain for DAppNode (ethereum/client-go:v1.8.11)",
-    "avatar": "rinkeby.png",
+    "avatar": "/ipfs/QmShX6GQ7j3893zRuyLU6mryuPaNufyjFqLy7xJRSFaMMa",
     "type": "library",
     "image": {
-        "path": "",
-        "hash": "",
-        "size": "",
-        "ports": [
-            "30303"
-        ],
-        "volumes": [
-            "rinkeby:/home/.rinkeby"
-        ]
+      "path": "rinkeby.dnp.dappnode.eth_0.1.0.tar.xz",
+      "hash": "/ipfs/QmeuB9AhaE36PWCxbke1uWy1mUnt75cot4e1enPnS6Mirt",
+      "size": 10062348,
+      "ports": [
+        "30303"
+      ],
+      "volumes": [
+        "rinkeby:/home/.rinkeby"
+      ]
     },
     "author": "Eduardo Antuña Díez (eduadiez)",
     "keywords": [
-        "geth",
-        "rinkeby",
-        "ethereum"
+      "geth",
+      "rinkeby",
+      "ethereum"
     ],
     "homepage": {
-        "homepage": "http://rinkeby.io/"
+      "homepage": "http://rinkeby.io/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/DAppNodePackages/rinkeby.git"
+    },
+    "bugs": {
+      "url": "https://github.com/dappnode/DAppNode/issues"
     },
     "license": "GPL-3.0",
     "dependencies": {}
-}
+  }
