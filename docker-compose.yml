@@ -1,5 +1,17 @@
 version: '3.4'
 services:
     rinkeby.dnp.dappnode.eth:
-        build: .
-        image: 'rinkeby.dnp.dappnode.eth:0.1.0'
+        image: 'rinkeby.dnp.dappnode.eth:0.2.0'
+        build: ./build
+        volumes:
+            - 'rinkeby:/root/.ethereum/rinkeby'
+        environment:
+            - EXTRA_OPTS=
+        ports:
+            - '127.0.0.1:8546:8546'
+            - '127.0.0.1:8545:8545'
+            - '31313:30303'
+            - '31313:30303/udp'
+            - '31314:30304/udp'
+volumes:
+    rinkeby: {}
