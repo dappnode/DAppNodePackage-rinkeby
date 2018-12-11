@@ -70,3 +70,7 @@ var Web3 = require('web3');
 var web3 = new Web3('ws://127.0.0.1:8546')
 web3.eth.getBlockNumber().then(console.log)
 ```
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details
