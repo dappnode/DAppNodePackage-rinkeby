@@ -2,7 +2,7 @@
   "name": "rinkeby.dnp.dappnode.eth",
   "version": "0.2.4",
   "description": "Rinkeby chain for DAppNode based on go-ethereum v1.8.27",
-  "avatar": "/ipfs/QmTfnrUdZWaMgr2Zi1h1Z7zS5CbYtQZRs72yqKZQHj5fxT",
+  "avatar": "/ipfs/QmSDzR7k9XVXZmUfkBi5HU7FYEnaSxhLH4gPXTFZ9nutyP",
   "type": "library",
   "chain": "ethereum",
   "image": {
