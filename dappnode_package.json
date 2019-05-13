@@ -4,6 +4,7 @@
   "description": "Rinkeby chain for DAppNode based on go-ethereum v1.8.21",
   "avatar": "/ipfs/QmShX6GQ7j3893zRuyLU6mryuPaNufyjFqLy7xJRSFaMMa",
   "type": "library",
+  "chain": "ethereum",
   "image": {
     "path": "",
     "hash": "",
