@@ -1,6 +1,6 @@
 {
   "name": "rinkeby.dnp.dappnode.eth",
-  "version": "0.2.5",
+  "version": "0.3.1",
   "upstreamVersion": "1.9.1",
   "shortDescription": "Ethereum testnet with Geth's PoA Protocol",
   "description": "Rinkeby network's consensus algorithm is Proof of Authority and is only supported by Geth. You can explore the chain on [etherscan](https://rinkeby.etherscan.io/",
