@@ -8,7 +8,7 @@
 [![RIOT DAppNode](https://img.shields.io/badge/RIOT-DAppNode-blue.svg)](https://riot.im/app/#/room/#DAppNode:matrix.org)
 [![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](https://twitter.com/DAppNode?lang=es)
 
-Dappnode package responsible for providing the Rinkeby chain ( based on go-ethereum v1.8.27)
+Dappnode package responsible for providing the Rinkeby chain ( based on go-ethereum v1.9.4)
 
 Aragon Package Manager Repo at [0x2dbc4622fde0dc5d1d1c6fc908678cddba81c189](https://etherscan.io/address/0x2dbc4622fde0dc5d1d1c6fc908678cddba81c189)
 
