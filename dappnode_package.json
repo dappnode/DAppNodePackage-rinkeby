@@ -1,6 +1,6 @@
 {
   "name": "rinkeby.dnp.dappnode.eth",
-  "version": "0.4.0",
+  "version": "0.4.2",
   "upstreamVersion": "1.9.6",
   "shortDescription": "Ethereum testnet with Geth's PoA Protocol",
   "description": "Rinkeby network's consensus algorithm is Proof of Authority and is only supported by Geth. You can explore the chain on [etherscan](https://rinkeby.etherscan.io/",
@@ -31,5 +31,11 @@
   "bugs": {
     "url": "https://github.com/dappnode/DAppNodePackage-rinkeby/issues"
   },
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "avatar": "/ipfs/QmSDzR7k9XVXZmUfkBi5HU7FYEnaSxhLH4gPXTFZ9nutyP",
+  "image": {
+    "path": "",
+    "hash": "",
+    "size": ""
+  }
 }
