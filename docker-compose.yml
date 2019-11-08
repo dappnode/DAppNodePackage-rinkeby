@@ -1,16 +1,16 @@
 version: '3.4'
 services:
-    rinkeby.dnp.dappnode.eth:
-        image: 'rinkeby.dnp.dappnode.eth:0.4.0'
-        build: ./build
-        volumes:
-            - 'rinkeby:/root/.ethereum/rinkeby'
-        environment:
-            - EXTRA_OPTS=--rpcapi eth,net,web3,txpool
-        ports:
-            - '30303'
-            - '30303/udp'
-            - '30304/udp'
-        restart: always
+  rinkeby.dnp.dappnode.eth:
+    image: 'rinkeby.dnp.dappnode.eth:0.4.2'
+    build: ./build
+    volumes:
+      - 'rinkeby:/root/.ethereum/rinkeby'
+    environment:
+      - 'EXTRA_OPTS=--rpcapi eth,net,web3,txpool'
+    ports:
+      - '30303'
+      - 30303/udp
+      - 30304/udp
+    restart: always
 volumes:
-    rinkeby: {}
+  rinkeby: {}
