@@ -31,11 +31,5 @@
   "bugs": {
     "url": "https://github.com/dappnode/DAppNodePackage-rinkeby/issues"
   },
-  "license": "GPL-3.0",
-  "avatar": "/ipfs/QmSDzR7k9XVXZmUfkBi5HU7FYEnaSxhLH4gPXTFZ9nutyP",
-  "image": {
-    "path": "",
-    "hash": "",
-    "size": ""
-  }
+  "license": "GPL-3.0"
 }
