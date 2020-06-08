@@ -21,5 +21,13 @@
       "dappnode": "Mon, 16 Mar 2020 18:28:19 GMT"
     },
     "link": "http://my.dappnode/#/sdk/publish/r=rinkeby.dnp.dappnode.eth&v=0.4.4&h=%2Fipfs%2FQmNSK6Ev8ZMvnGjq6osehUggJK2WeHeensginfVu2rwTSd"
+  },
+  "0.4.5": {
+    "hash": "/ipfs/QmeKbBfT4Sh9JhTvksRCQWqUCXNmifUMVQfLgD7bNVBa3A",
+    "type": "directory",
+    "uploadedTo": {
+      "remote": "Mon, 08 Jun 2020 17:32:25 GMT"
+    },
+    "link": "http://my.dappnode/#/sdk/publish/r=rinkeby.dnp.dappnode.eth&v=0.4.5&h=%2Fipfs%2FQmeKbBfT4Sh9JhTvksRCQWqUCXNmifUMVQfLgD7bNVBa3A"
   }
 }
