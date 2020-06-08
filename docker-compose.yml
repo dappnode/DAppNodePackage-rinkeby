@@ -1,8 +1,11 @@
 version: '3.4'
 services:
   rinkeby.dnp.dappnode.eth:
-    image: 'rinkeby.dnp.dappnode.eth:0.4.2'
-    build: ./build
+    image: 'rinkeby.dnp.dappnode.eth:0.4.5'
+    build:
+      context: ./build
+      args:
+        - VERSION
     volumes:
       - 'rinkeby:/root/.ethereum/rinkeby'
     environment:
