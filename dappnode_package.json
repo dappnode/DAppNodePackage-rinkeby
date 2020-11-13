@@ -1,6 +1,6 @@
 {
   "name": "rinkeby.dnp.dappnode.eth",
-  "version": "0.4.5",
+  "version": "0.4.7",
   "upstreamVersion": "v1.9.15",
   "shortDescription": "Ethereum testnet with Geth's PoA Protocol",
   "description": "Rinkeby network's consensus algorithm is Proof of Authority and is only supported by Geth. You can explore the chain on [etherscan](https://rinkeby.etherscan.io/",
@@ -10,20 +10,9 @@
   "contributors": [
     "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)"
   ],
-  "keywords": [
-    "geth",
-    "rinkeby",
-    "ethereum",
-    "testnet",
-    "go-ethereum"
-  ],
-  "categories": [
-    "Developer tools"
-  ],
-  "architectures": [
-    "linux/amd64",
-    "linux/arm64"
-  ],
+  "keywords": ["geth", "rinkeby", "ethereum", "testnet", "go-ethereum"],
+  "categories": ["Developer tools"],
+  "architectures": ["linux/amd64", "linux/arm64"],
   "links": {
     "homepage": "http://rinkeby.io/",
     "api": "http://rinkeby.dappnode:8545"
