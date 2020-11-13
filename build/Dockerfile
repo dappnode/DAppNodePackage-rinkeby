@@ -15,5 +15,6 @@ RUN git clone -b ${UPSTREAM_VERSION} https://github.com/ethereum/go-ethereum.git
 FROM alpine:edge
 
 RUN apk add --no-cache ca-certificates
-COPY --from=geth /usr/local/bin/geth /usr/local/bin/geth
-ENTRYPOINT [ "sh", "-c", "eval geth --rinkeby --rpc --rpccorsdomain='*' --rpcaddr='0.0.0.0' --rpcvhosts='*' --ws --wsaddr='0.0.0.0' --wsorigins='*' ${EXTRA_OPTS}"]
+COPY --from=builder /go/go-ethereum/build/bin/geth /usr/local/bin
+
+ENTRYPOINT geth --rinkeby --http --http.addr 0.0.0.0 --http.corsdomain "*" --http.vhosts "*" --ws --ws.origins "*" --ws.addr 0.0.0.0 $EXTRA_OPTS
