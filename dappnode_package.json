@@ -20,6 +20,10 @@
   "categories": [
     "Developer tools"
   ],
+  "architectures": [
+    "linux/amd64",
+    "linux/arm64"
+  ],
   "links": {
     "homepage": "http://rinkeby.io/",
     "api": "http://rinkeby.dappnode:8545"
