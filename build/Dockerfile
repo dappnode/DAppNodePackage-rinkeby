@@ -17,4 +17,4 @@ FROM alpine:edge
 RUN apk add --no-cache ca-certificates
 COPY --from=builder /go/go-ethereum/build/bin/geth /usr/local/bin
 
-ENTRYPOINT geth --rinkeby --http --http.addr 0.0.0.0 --http.corsdomain "*" --http.vhosts "*" --ws --ws.origins "*" --ws.addr 0.0.0.0 $EXTRA_OPTS
+ENTRYPOINT geth --rinkeby --http --http.addr 0.0.0.0 --http.corsdomain "*" --http.vhosts "*" --ws --ws.origins "*" --ws.addr 0.0.0.0 $EXTRA_OPTIONS
