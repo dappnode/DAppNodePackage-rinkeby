@@ -1,7 +1,7 @@
 {
   "name": "rinkeby.dnp.dappnode.eth",
   "version": "0.4.5",
-  "upstreamVersion": "v1.10.3",
+  "upstreamVersion": "v1.10.4",
   "upstreamRepo": "ethereum/go-ethereum",
   "upstreamArg": "UPSTREAM_VERSION",
   "shortDescription": "Ethereum testnet with Geth's PoA Protocol",
