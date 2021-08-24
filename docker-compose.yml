@@ -5,11 +5,12 @@ services:
     build:
       context: ./build
       args:
-        UPSTREAM_VERSION: v1.10.7
+        UPSTREAM_VERSION: v1.10.8
     volumes:
       - "rinkeby:/root/.ethereum/rinkeby"
     environment:
       - "EXTRA_OPTIONS=--http.api eth,net,web3,txpool"
+      - SYNCMODE
     ports:
       - "30303"
       - 30303/udp
