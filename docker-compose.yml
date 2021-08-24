@@ -10,6 +10,7 @@ services:
       - "rinkeby:/root/.ethereum/rinkeby"
     environment:
       - "EXTRA_OPTIONS=--http.api eth,net,web3,txpool"
+      - SYNCMODE
     ports:
       - "30303"
       - 30303/udp
