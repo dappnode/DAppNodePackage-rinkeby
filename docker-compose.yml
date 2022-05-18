@@ -3,7 +3,7 @@ services:
   rinkeby.dnp.dappnode.eth:
     image: "rinkeby.dnp.dappnode.eth:0.4.10"
     build:
-      context: ./build
+      context: .
       args:
         UPSTREAM_VERSION: v1.10.17
     volumes:
