@@ -1,4 +1,4 @@
-version: "3.4"
+version: "3.5"
 services:
   rinkeby.dnp.dappnode.eth:
     image: "rinkeby.dnp.dappnode.eth:0.4.10"
