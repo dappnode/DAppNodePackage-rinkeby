@@ -10,11 +10,11 @@ services:
       - "rinkeby:/root/.ethereum/rinkeby"
     environment:
       - "EXTRA_OPTIONS=--http.api eth,net,web3,txpool"
+      - P2P_PORT=30343
       - SYNCMODE
     ports:
-      - "30303"
-      - 30303/udp
-      - 30304/udp
+      - "30343:30343/tcp"
+      - "30343:30343/udp"
     restart: always
 volumes:
   rinkeby: {}
