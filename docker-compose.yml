@@ -5,7 +5,7 @@ services:
     build:
       context: .
       args:
-        UPSTREAM_VERSION: v1.10.25
+        UPSTREAM_VERSION: v1.10.26
     volumes:
       - "rinkeby:/root/.ethereum/rinkeby"
     environment:
